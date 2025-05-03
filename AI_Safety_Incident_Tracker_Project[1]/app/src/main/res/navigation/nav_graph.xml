@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/incidentListFragment">
+
+    <fragment
+        android:id="@+id/incidentListFragment"
+        android:name="com.humanchain.aisafetytracker.ui.IncidentListFragment"
+        android:label="Incident List">
+        <action
+            android:id="@+id/action_incidentListFragment_to_reportIncidentFragment"
+            app:destination="@id/reportIncidentFragment"/>
+        <action
+            android:id="@+id/action_incidentListFragment_to_incidentDetailFragment"
+            app:destination="@id/incidentDetailFragment">
+            <argument
+                android:name="incidentId"
+                app:argType="integer"
+                android:defaultValue="0"/>
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/reportIncidentFragment"
+        android:name="com.humanchain.aisafetytracker.ui.ReportIncidentFragment"
+        android:label="Report Incident">
+        <action
+            android:id="@+id/action_reportIncidentFragment_to_incidentListFragment"
+            app:destination="@id/incidentListFragment"
+            app:popUpTo="@id/incidentListFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/incidentDetailFragment"
+        android:name="com.humanchain.aisafetytracker.ui.IncidentDetailFragment"
+        android:label="Incident Detail">
+        <argument
+            android:name="incidentId"
+            app:argType="integer"
+            android:defaultValue="0"/>
+        <action
+            android:id="@+id/action_incidentDetailFragment_to_incidentListFragment"
+            app:destination="@id/incidentListFragment"
+            app:popUpTo="@id/incidentListFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+</navigation>

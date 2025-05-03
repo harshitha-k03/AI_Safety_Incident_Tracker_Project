@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.humanchain.aisafetytracker.ui.IncidentListFragmentDirections","com.humanchain.aisafetytracker.ui.ReportIncidentFragmentDirections","com.humanchain.aisafetytracker.ui.IncidentDetailFragmentDirections","com.humanchain.aisafetytracker.ui.IncidentDetailFragmentArgs"]}]

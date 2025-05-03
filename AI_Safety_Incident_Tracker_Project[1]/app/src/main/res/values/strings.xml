@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AI Safety Tracker</string>
+    <string name="incident_not_found">Incident Not Found</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="all">All</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="incident_title_hint">Incident Title</string>
+    <string name="severity_hint">Severity (Low/Medium/High)</string>
+    <string name="description_hint">Description</string>
+    <string name="delete">Delete</string>
+    <string name="delete_incident_title">Delete Incident</string>
+    <string name="delete_incident_message">Are you sure you want to delete this incident?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

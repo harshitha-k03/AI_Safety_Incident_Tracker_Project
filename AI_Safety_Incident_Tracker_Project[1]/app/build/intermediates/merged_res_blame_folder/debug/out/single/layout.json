@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\moksh\\.gradle\\daemon\\8.11.1\\com.humanchain.aisafetytracker.app-mergeDebugResources-47:\\layout\\item_incident.xml",
+        "source": "C:\\Users\\moksh\\.gradle\\daemon\\8.11.1\\com.humanchain.aisafetytracker.app-main-50:\\layout\\item_incident.xml"
+    },
+    {
+        "merged": "com.humanchain.aisafetytracker.app-mergeDebugResources-47:/layout/item_incident.xml",
+        "source": "com.humanchain.aisafetytracker.app-main-50:/layout/item_incident.xml"
+    },
+    {
+        "merged": "C:\\Users\\moksh\\.gradle\\daemon\\8.11.1\\com.humanchain.aisafetytracker.app-mergeDebugResources-47:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\moksh\\.gradle\\daemon\\8.11.1\\com.humanchain.aisafetytracker.app-main-50:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\moksh\\.gradle\\daemon\\8.11.1\\com.humanchain.aisafetytracker.app-mergeDebugResources-47:\\layout\\fragment_incident_list.xml",
+        "source": "C:\\Users\\moksh\\.gradle\\daemon\\8.11.1\\com.humanchain.aisafetytracker.app-main-50:\\layout\\fragment_incident_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\moksh\\.gradle\\daemon\\8.11.1\\com.humanchain.aisafetytracker.app-mergeDebugResources-47:\\layout\\fragment_incident_detail.xml",
+        "source": "C:\\Users\\moksh\\.gradle\\daemon\\8.11.1\\com.humanchain.aisafetytracker.app-main-50:\\layout\\fragment_incident_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\moksh\\.gradle\\daemon\\8.11.1\\com.humanchain.aisafetytracker.app-mergeDebugResources-47:\\layout\\fragment_report_incident.xml",
+        "source": "C:\\Users\\moksh\\.gradle\\daemon\\8.11.1\\com.humanchain.aisafetytracker.app-main-50:\\layout\\fragment_report_incident.xml"
+    }
+]
